@@ -9,6 +9,6 @@ export interface ButtonProps {
   size?: ButtonSize;
   shape?: ButtonShape;
   className?: string;
-  styles?: string;
+  styles: string;
   onClick?: () => void;
 }
