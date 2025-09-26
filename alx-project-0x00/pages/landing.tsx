@@ -27,6 +27,13 @@ const Landing: React.FC = () => {
         size="large"
         styles=""
         onClick={() => alert("Large Rounded-full Button clicked!")}
+          />
+          <Button
+        title="Large Rounded-lg"
+        shape="rounded-lg"
+        size="large"
+        styles=""
+        onClick={() => alert("Large Rounded-lg Button clicked!")}
       />
     </div>
   )
