@@ -5,11 +5,29 @@ const Landing: React.FC = () => {
     <div>
           <h1 className=" text-xl font-extralight">Landing Page</h1>
           <Card />
-          <Button title="Click Me" onClick={() => alert("First Button clicked!")} />
+          <Button
+        title="Small Rounded-sm"
+        shape="rounded-sm"
+        size="small"
+        styles=""
+        onClick={() => alert("Small Rounded-sm Button clicked!")}
+      />
           <Card />
-          <Button title="Click Me" onClick={() => alert("3rd Button clicked!")} />
+          <Button
+        title="Medium Rounded-md"
+        shape="rounded-md"
+        size="medium"
+        styles=""
+        onClick={() => alert("Medium Rounded-md Button clicked!")}
+      />
           <Card />
-          <Button title="Click Me" onClick={() => alert("2nd Button clicked!")} />
+          <Button
+        title="Large Rounded-full"
+        shape="rounded-full"
+        size="large"
+        styles=""
+        onClick={() => alert("Large Rounded-full Button clicked!")}
+      />
     </div>
   )
 }
