@@ -29,11 +29,12 @@ const Button: React.FC<ButtonProps> = ({
   size = "medium",
   shape = "rounded-md",
   className = "",
+  styles = "",
   onClick,
 }) => {
   return (
     <button
-      className={`bg-blue-500 text-white font-semibold ${sizeClasses[size]} ${shapeClasses[shape]} ${className}`}
+      className={`bg-blue-500 text-white font-semibold ${sizeClasses[size]} ${shapeClasses[shape]} ${className} ${styles}`}
       onClick={onClick}
     >
       {title}

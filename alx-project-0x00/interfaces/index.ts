@@ -2,12 +2,13 @@ export interface PillProps {
   title: string
 }
 
-type ButtonSize = "small" | "medium" | "large";
-type ButtonShape = "rounded-sm" | "rounded-md" | "rounded-full";
+export type ButtonSize = "small" | "medium" | "large";
+export type ButtonShape = "rounded-sm" | "rounded-md" | "rounded-full";
 export interface ButtonProps {
   title: string;
   size?: ButtonSize;
   shape?: ButtonShape;
   className?: string;
+  styles?: string;
   onClick?: () => void;
 }
